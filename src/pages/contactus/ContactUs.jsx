@@ -56,8 +56,6 @@ const ContactUs = () => {
         <button className='px-10  py-2 bg-evolvisPink rounded-lg text-white w-[46%] m-auto'>Send message</button>
       </form>
 
-
-
       </div>
     </div>
     <Footer />

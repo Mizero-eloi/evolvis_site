@@ -11,11 +11,11 @@ const Navbar = () => {
       {/* Nav links */}
 
       <div className="flex gap-10  items-center">
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/services">Services</Link>
         <Link to="/Techhub">Techhub</Link>
         <Link to="/portfolio">Portfolio</Link>
-        <Link to="/ourteam">Our Team</Link>
+        <Link to="/Our_team">Our Team</Link>
 
         <Link to="/contact_us" className='px-16  py-2 bg-evolvisPink rounded-lg text-white'>Contact us</Link>
         

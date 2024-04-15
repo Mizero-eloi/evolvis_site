@@ -5,6 +5,7 @@ import './App.css';
 import TechHub from "./pages/TechHub/TechHub";
 import TrainingCenterDetails from "./pages/TrainingCenterDetails/TrainingCenterDetails";
 import ContactUs from "./pages/contactus/ContactUs";
+import OurTeam from "./pages/OurTeam/OurTeam";
 
 function App() {
   return ( 
@@ -12,8 +13,10 @@ function App() {
       
       <Routes>
         <Route path="/" element={<TechHub />} />
+        <Route path="/Techhub" element={<TechHub />} />
         <Route path="/training_center_details" element={<TrainingCenterDetails />} />
         <Route path="/contact_us" element={<ContactUs />} />
+        <Route path="/Our_team" element={<OurTeam />} />
 
       </Routes>
    
